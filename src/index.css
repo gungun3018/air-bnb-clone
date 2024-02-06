@@ -1,0 +1,157 @@
+/* body , html{
+    padding: 0px;
+    margin : 0 ;
+    box-sizing: border-box;
+} */
+html {
+    background-color: antiquewhite;
+}
+
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    width: auto;
+    height: 135vh;
+    padding: 100px 70px;
+    border: solid #e9eabc4f;
+    perspective: 1000px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    /* align-self: center; */
+    /* justify-self: center; */
+    /* background-color: aqua; */
+}
+
+.nav {
+    /* background-color: blue; */
+    height: 30px;
+    width: auto;
+    padding: 4%;
+    margin: 0%;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav-photo {
+    width: 110px;
+    height : auto ; 
+}
+
+/* 
+.photogrid-container{
+    width :100px ;
+    /* display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center; */
+/* padding: 50px; */
+/* background-color: aqua; */
+/* margin-left: 90px; */
+/* } */
+
+.photo-grid {
+    width: 40vw;
+    height : 40vh ; 
+    padding: 4% 14% 4% 14%;
+}
+
+.content-heading {
+    color: #000;
+    font-family: Poppins;
+    /* font-size: 2.5rem; */
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: 600;
+    /* background-color: aquamarine; */
+}
+
+.description {
+    width: 60%;
+    height: auto;
+    font-family: Poppins;
+    font-size: medium;
+    font-weight: 300;
+    /* background-color: beige; */
+    /* margin-top: 1%; */
+}
+
+.card-container {
+    width: 17%;
+    margin-top: 5%;
+    /* background-color: bisque; */
+    /* object-fit: cover; */
+    display: inline-block ;
+    margin-right: 5%;
+    position: relative;
+    /* margin-left: 7%; */
+    /* overflow: hidden; */
+}
+
+/* .card-image {
+ width : 50px  !important ;
+ height: 20px  !important ;
+ position: relative ; 
+ object-fit: cover; /* Ensures that the image covers the specified dimensions */
+  /* display: block; /* Ensures proper rendering as a block element */
+  /* margin: 0; Reset margin */
+  /* padding: 0; Reset padding */
+  /* border: 0; Reset border */ 
+
+/* }   */
+
+
+.card-image > img{
+    height : 25vh ;
+    width : 10vw; 
+}
+.about {
+    color: #222;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%;
+}
+
+.rating{
+    margin-top: 3%;
+    display: flex;
+    justify-content: flex-start;
+    color: #222;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.rating img{
+    margin-top: 5%;
+    height : 15px; 
+    width : 15px ; 
+}
+
+.rating span{
+    margin-top: 5%;
+    color: #918E9B;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.pricing{
+    color: #222;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+}
+
+.pricing span{
+    font-weight: 300;
+}
